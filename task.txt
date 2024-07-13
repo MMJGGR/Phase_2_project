@@ -5,11 +5,42 @@ Wednesday - work on final presentation and review project
 Thursday - submit final project
 
 Notebook Structure:
-1. Data Loading  - summarize what each column does
-2. EDA & Data Cleaning - drop duplicates,fill in missing data, choose columns, test & train split
-3. Feature Engineering & Selection
-4. Analysis - including some visualization.
-5. Modeling - assumptions: no outliers, no null values, data scaled, data normal, homoskedasticity
+1. ○ Introduction (craft an appropriate overview and business understanding using the business problem).
+			 Overview
+			 Business understanding & objectives
+		○ Data understanding
+			 Explain the data in a paragraph or two 
+			 Import necessary libraries
+			 Load dataset into dataframe
+			 Inspect the dataframe (df.shape; df.info; df.description etc) and 
+			 comment on the da
+			
+		○ EDA & Data Cleaning 
+			 Drop/Fill null values, 
+			 Check and remove Duplicates, 
+			 Check for outliers and remove them
+			
+		○ Data Preparation
+			 Feature inspection (use e.g. scatter matrix, histograms, pairplot, heatmap)
+			 Select Relevant Columns (comment on why each feature is selected and cross-validate them with e.g., scatter matrix, pairplot, heatmap etc ) 
+			 Clean relevant columns further if necessary 
+			 Check for regression assumptions
+			
+		○ Modelling - perform iterative modelling by selecting different features. Build 2-3 models and comment on them based on regression metrics such as mean absolute error (mae) and r-squared. (NB: You can first build a simple regression model with the best feature, then add the second with two features, and then the third with three features and compare them)
+			 Define X and y (Separate Feature & Target)
+			 Test-Train Split; 
+			 Scale data if necessary (standardscaler)
+			 model=Linear Regression()
+	
+		○ Validation (Regression Results); use at least 2 important parameter estimates or statistics. For example.
+			 Mean absolute error
+			 RMSE
+			 r-squared
+			 Feature coefficients
+			 Discuss the best model and why it is the best in 1 - 3 paragraphs.
+			
+		○ Conclusions based on business objectives.
+			 Make recommendation that are in line with the business objectives.
 
 Project Structure
 1. Introduction
