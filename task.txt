@@ -1,4 +1,19 @@
+Schedule
 Saturday - Monday: Work separately on projects on individual notebooks.
 Tuesday - discuss best models, select models and work on final notebook
 Wednesday - work on final presentation and review project
 Thursday - submit final project
+
+Notebook Structure:
+1. Data Loading  - summarize what each column does
+2. EDA & Data Cleaning - drop duplicates,fill in missing data, choose columns, test & train split
+3. Feature Engineering & Selection
+4. Analysis - including some visualization.
+5. Modeling - assumptions: no outliers, no null values, data scaled, data normal, homoskedasticity
+
+Project Structure
+1. Introduction
+2. Problem Statement
+3. Objectives
+4. Analysis
+5. Conclusion
