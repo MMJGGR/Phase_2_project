@@ -13,7 +13,7 @@ Notebook Structure:
 			 Import necessary libraries
 			 Load dataset into dataframe
 			 Inspect the dataframe (df.shape; df.info; df.description etc) and 
-			 comment on the da
+			 comment on the data
 			
 		○ EDA & Data Cleaning 
 			 Drop/Fill null values, 
