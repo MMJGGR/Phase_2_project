@@ -48,3 +48,19 @@ Project Structure
 3. Objectives
 4. Analysis
 5. Conclusion
+
+
+Business Strategy Implications
+Given these insights, the Real Estate Development Company should consider the following strategies:
+
+Target Larger Houses: Since the model indicates that house price increases with the square footage of living space, the company should focus on acquiring or developing larger houses to maximize potential sales prices.
+
+Focus on High-Grade Houses: Houses with higher grades are significantly associated with higher prices. The company should aim to develop or invest in properties with higher quality finishes, better construction, and more desirable features.
+
+Investigate Bathroom Anomaly: The negative coefficient for bathrooms is unusual and suggests a deeper investigation is needed. The company should look into whether this result is due to multicollinearity or other factors not captured in the model. It may be beneficial to re-examine the quality or location of properties with many bathrooms.
+
+Consider Additional Predictors: Since the R-squared value is 0.537, there are other factors influencing house prices that are not included in this model. The company should consider incorporating additional relevant variables such as location, lot size, view, and age of the house to improve the model's predictive power.
+
+Use Predictive Analytics for Targeted Marketing: By using the model to predict high-priced houses, the company can create targeted marketing strategies to attract high-end buyers. This can involve highlighting the features that are most strongly associated with higher prices, such as larger living spaces and higher grades.
+
+Price Optimization: The company can use the model's predictions to set competitive yet profitable prices for their properties, ensuring that they are priced appropriately based on their characteristics.
