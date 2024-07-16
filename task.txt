@@ -64,3 +64,27 @@ Consider Additional Predictors: Since the R-squared value is 0.537, there are ot
 Use Predictive Analytics for Targeted Marketing: By using the model to predict high-priced houses, the company can create targeted marketing strategies to attract high-end buyers. This can involve highlighting the features that are most strongly associated with higher prices, such as larger living spaces and higher grades.
 
 Price Optimization: The company can use the model's predictions to set competitive yet profitable prices for their properties, ensuring that they are priced appropriately based on their characteristics.
+
+
+Based on the OLS regression results and the business context of the Real Estate Development Company venturing into the King County Housing market, several conclusions can be drawn from the data:
+
+Conclusions
+Significant Predictors of House Prices:
+
+Square Footage of Living Space (sqft_living): The coefficient suggests that for each additional square foot of living space, house prices are estimated to increase by $203.17, holding other variables constant. This indicates that larger houses tend to command higher prices.
+
+Grade of the House (grade): A higher grade is associated with higher house prices, with each unit increase in grade estimated to increase house prices by $104,600, holding other variables constant. Grades typically reflect the quality and features of the house, influencing buyer preferences and willingness to pay.
+
+Number of Bathrooms (bathrooms): Contrary to initial expectations, the coefficient suggests that each additional bathroom is associated with a decrease in house prices by $38,360, holding other variables constant. This unexpected finding may warrant further investigation into potential factors influencing this relationship.
+
+Model Fit and Statistical Significance:
+
+The overall model has an R-squared value of 0.537, indicating that approximately 53.7% of the variance in house prices can be explained by the predictors (sqft_living, grade, bathrooms) included in the model. This suggests that while these predictors are significant, there are other factors not captured by the model that also influence house prices.
+
+The F-statistic is very high (8359) with a low p-value (0.00), indicating that the model is statistically significant. This implies that at least one of the predictors is significantly related to house prices, reinforcing the reliability of the model's predictions.
+
+Residual Analysis:
+
+The Omnibus and Jarque-Bera tests indicate that the residuals are not normally distributed, which may suggest departures from the assumption of normality in the model. This could impact the reliability of the model's predictions, particularly in the extremes of the price distribution.
+
+The Durbin-Watson statistic (1.980) suggests no significant autocorrelation among residuals, indicating that the model adequately captures the independence assumption of residuals.
