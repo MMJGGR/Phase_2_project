@@ -1,3 +1,8 @@
+* [Slideshow Presentation](https://github.com/MMJGGR/Phase_2_project/blob/main/phase2-presentation.pdf)
+* [Jupyter Notebook with Cleaning & Questions](https://github.com/MMJGGR/Phase_2_project/blob/main/index.ipynb)
+* [Notebook PDF](https://github.com/MMJGGR/Phase_2_project/blob/main/index.pdf)
+* [Data Sources](https://github.com/MMJGGR/Phase_2_project/tree/main/Data)
+* [Individual Group Member Contributions](https://github.com/MMJGGR/Phase_2_project/tree/main/work_in_progress)
 # 1. Introduction
 
 In the King County housing market, multiple dynamics play a major role in shaping the prosperity of Real Estate companies. Real estate development companies face significant challenges in navigating many complexities when it comes to deciding on the most important features to include in homes. 
